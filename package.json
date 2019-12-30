@@ -1,5 +1,5 @@
 {
-  "name": "prompt-player-plugin",
+  "name": "@elearn/prompt-player-plugin",
   "version": "1.0.0",
   "description": "Plugin to show propmt in learndesk-web",
   "main": "index.js",
@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/duongtdn/prompt-player-plugin#readme",
   "dependencies": {
-    "content-presenter": "^3.0.0"
+    "content-presenter": "^3.1.1"
   },
   "peerDependencies": {
     "react": "^15.4.0",
