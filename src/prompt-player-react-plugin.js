@@ -22,7 +22,7 @@ class PromptReactComponent extends Component {
           <div className="w3-large w3-text-blue-grey" style={{margin: '0 0 32px 0'}}> {data.prompt} </div>
           <div>{
             data.buttons.map(btn => (
-              <button className="w3-button" onClick={e => this.finish(btn.action) } > {btn.label} </button>
+              <button key={btn.label} className="w3-button" onClick={e => this.finish(btn.action) } > {btn.label} </button>
             ))
           }</div>
         </div>
